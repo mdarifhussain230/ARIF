@@ -1,2 +1,7 @@
-# THIS IS A PYTHON PROGRAME TO PRINT RANDOME PASSWORD
-CREATED BY ARIF37
+import random
+lower=("abcdefghijklmnopqrstuvwxyz")
+upper=("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+number=("0123456789")
+all=lower+upper+number
+password=random.sample(all,8)
+print(password)
